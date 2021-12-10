@@ -23,6 +23,8 @@ docker run -it -p 80:3000 --name app-imersao-docker-nodejs didox/app-imersao-doc
 
 # Para parar o docker
 docker stop app-imersao-docker-nodejs
+# Para start o docker conteiner existente
+docker start app-imersao-docker-nodejs
 
 # para remover a imagem do docker
 docker rm app-imersao-docker-nodejs
